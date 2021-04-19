@@ -1,0 +1,7 @@
+body{
+	background: green;
+	background: linear-gradient (green, red);
+	background-repeat: no-repeat;
+	height: 95vh;
+	width: 98vw;
+}
