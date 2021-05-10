@@ -322,6 +322,8 @@ a{
 	background-color: white;
 }
 
+/*Behöver fixa till listan så att den står mer i mitten*/
+
 #sida4 ol li{
 	margin-left: 300px;
 	text-align: left;
