@@ -23,7 +23,7 @@
         <iframe class="video" src="https://www.youtube.com/embed/fcsvE1zv1ek"></iframe>
       </section>
       <main>
-		<form action="fil.html" method="GET">
+		<form action="fil.html" method="POST">
 			<label for="användarnamn">Användarnamn:</label>
 			<br>
 			<input type="text" id="användarnamn" name="användarnamn">
@@ -34,28 +34,29 @@
 			<br>
 			<label>Vad tyckte du om låten?</label> 
 			<br>
-			<input type="radio" id="bra" name="bra" value="bra">
+			<input type="radio" id="bra" name="betyg" value="bra">
 			<label for="bra">Bra</label>
 			<br>
-			<input type="radio" id="dålig" name="dålig" value="dålig">
+			<input type="radio" id="dålig" name="betyg" value="dålig">
 			<label for="dålig">Dålig</label>
+			<textarea rows="3" cols="15"></textarea>
 			<br>
 			<br>
 			<label>Vem var din favorit artist?</label> 
 			<br>
-			<input type="checkbox" id="drdre" name="drdre" value="drdre">
+			<input type="checkbox" id="drdre" name="favorit" value="drdre">
 			<label for="drdre">Dr Dre</label>
 			<br>
-			<input type="checkbox" id="50cent" name="50cent" value="50cent">
+			<input type="checkbox" id="50cent" name="favorit" value="50cent">
 			<label for="50cent">50 Cent</label>
 			<br>
-			<input type="checkbox" id="icecube" name="icecube" value="icecube">
+			<input type="checkbox" id="icecube" name="favorit" value="icecube">
 			<label for="icecube">Ice Cube</label>
 			<br>
-			<input type="checkbox" id="2pac" name="2pac" value="2pac">
+			<input type="checkbox" id="2pac" name="favorit" value="2pac">
 			<label for="2pac">2Pac</label>
 			<br>
-			<input type="checkbox" id="coolio" name="coolio" value="coolio">
+			<input type="checkbox" id="coolio" name="favorit" value="coolio">
 			<label for="coolio">Coolio</label>
 			<br>
 			<input type="submit">
